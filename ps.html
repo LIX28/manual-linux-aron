@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo comando ps</title>
+</head>
+<body>
+    <h1>Ejemplo de uso del comando ps</h1>
+
+    <p>Mostrar procesos actuales:</p>
+    <pre>ps</pre>
+
+    <p>Mostrar todos los procesos:</p>
+    <pre>ps aux</pre>
+
+    <p>Buscar un proceso específico:</p>
+    <pre>ps aux | grep nombre_proceso</pre>
+
+    <p>Mostrar procesos con formato detallado:</p>
+    <pre>ps -ef</pre>
+
+    <h2>EJEMPLOS DE ERRORES COMUNES</h2>
+
+    <p>Error: olvidar opciones para ver todos los procesos</p>
+    <pre>ps</pre>
+    <p>Correcto:</p>
+    <pre>ps aux</pre>
+
+    <p>Error: buscar proceso sin usar grep</p>
+    <pre>ps aux nombre</pre>
+    <p>Correcto:</p>
+    <pre>ps aux | grep nombre</pre>
+
+    <p>Error: usar mal las opciones</p>
+    <pre>ps -a -u -x (separado innecesariamente)</pre>
+    <p>Correcto:</p>
+    <pre>ps aux</pre>
+
+    <hr>
+
+    <footer>
+        <h3>HECHO POR ARON</h3>
+    </footer>
+
+</body>
+</html>
